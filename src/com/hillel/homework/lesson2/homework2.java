@@ -1,6 +1,6 @@
 package com.hillel.homework.lesson2;
 
-public class hw1 {
+public class homework2 {
     public static void main(String[] args) {
 
         float myFloat = 46.437120F;
