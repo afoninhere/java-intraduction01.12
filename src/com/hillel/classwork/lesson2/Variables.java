@@ -2,6 +2,7 @@ package com.hillel.classwork.lesson2;
 
 public class Variables {
     public static void main(String[] args) {
+
         byte myByte = 101;
         System.out.println("this is byte: " + myByte);
 
