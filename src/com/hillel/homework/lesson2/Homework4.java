@@ -3,18 +3,18 @@ package com.hillel.homework.lesson2;
 public class Homework4 {
     public static void main(String[] args) {
 
-        byte ball1 = 1;
+        double ball1 = 1;
         double ball2 = 0.5;
         double ball3 = 0.2;
         double convert = 0.7;
 
-        double sb1 = (4 / 3F) * (Math.PI * Math.sqrt(ball1));
-        System.out.println("snowBall3: " + sb1);
+        double sb1 = (4 / 3F) * (Math.PI * Math.pow(ball1, 3));
+        System.out.println("snowBall1: " + sb1);
 
-        double sb2 = (4 / 3F) * (Math.PI * Math.sqrt(ball2));
-        System.out.println("snowBall3: " + sb2);
+        double sb2 = (4 / 3F) * (Math.PI * Math.pow(ball2, 3));
+        System.out.println("snowBall2: " + sb2);
 
-        double sb3 = (4 / 3F) * (Math.PI * Math.sqrt(ball3));
+        double sb3 = (4 / 3F) * (Math.PI * Math.pow(ball3, 3));
         System.out.println("snowBall3: " + sb3);
 
         double massa1 = sb1 * convert;
