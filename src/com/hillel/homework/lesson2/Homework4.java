@@ -28,8 +28,8 @@ public class Homework4 {
 
         double result = massa1 + massa2 + massa3;
 
-        String sss = String.format("%.2f",result);
-        System.out.println("Massa snowman: " + sss + " kg");
+        String finresult = String.format("%.2f",result);
+        System.out.println("Massa snowman: " + finresult + " kg");
 
     }
 
